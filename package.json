@@ -4,7 +4,7 @@
   "description": "Project to practice Node learning in a real life scenario",
   "main": "app/app.js",
   "scripts": {
-    "start": "nodemon app/app.js"
+    "start": "nodemon -e css,ejs,js,json --watch app"
   },
   "author": "Giovanni Vigorelli",
   "license": "MIT",

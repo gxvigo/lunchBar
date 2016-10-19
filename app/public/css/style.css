@@ -9,7 +9,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #C1343F;
+/*  color: #C1343F; */
+  color: #809C1F;
 }
 
 p {
@@ -25,19 +26,24 @@ li {
 
 
 a {
-  color: #DD4F53;
+/*  color: #DD4F53;*/
+  color: #5C7505;
 }
 
 /**  Header Navigation **/
 
 header {
   font-size: 2rem;
+      
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px !important;      ;
 }
 
 header .jumbotron {
   height: 40vh;
   margin-bottom: 0;
-  background: url(../images/misc/background.jpg) no-repeat 100% 5%;
+  background: url(../images/misc/banner.png) no-repeat 100% 5%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,7 +53,8 @@ header .jumbotron {
 /**  Navbar **/
 
 header .navbar {
-  background: #CF5565;
+  /** background: #CF5565;  **/
+  background: #9eba3b;
   margin-bottom: 0;
   border-radius: 0;
   font-family: "Roboto", sans-serif;
@@ -225,3 +232,4 @@ header .navbar-inverse .navbar-nav>li>a {
     width: 20%;
   }
 }
+
