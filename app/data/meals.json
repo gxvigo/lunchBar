@@ -1,0 +1,15 @@
+{
+	"meals": [{
+		"mealId": "onigirazu",
+		"mealName": "Onigirazu (Sushi) - Japanese rice sandwich",
+		"dietaryRestrictions": "GF, VG",
+		"image": "onigirazu.jpg",
+		"price": 0.00
+	}, {
+		"mealId": "brownRiceSaladAndHummus",
+		"mealName": "Brown rice salad and Hummus",
+		"dietaryRestrictions": "GF, VG",
+		"image": "brownRiceSaladAndHummus.jpg",
+		"price": 0.00
+	}]
+}

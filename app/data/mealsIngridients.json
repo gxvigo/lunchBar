@@ -1,0 +1,15 @@
+{
+	"mealsIngridents": [{
+		"mealId": "onigirazu",
+		"mealName": "Onigirazu (Sushi) - Japanese rice sandwich",
+		"ingridients": "rice*, natural nori seaweed, apple cider vinegar*, raw sugar*, natural sea salt, mirin, ginger#, tamari soy sauce (wheat free)*, carrot*, cucumber#, soy texture*"
+	}, {
+		"mealId": "brownRiceSalad",
+		"mealName": "Brown rice salad",
+		"ingridients": "brown rice*, carrot*, red onion#, spring onion#, corn, pumpkin seeds*, sunflower seeds*, raisin*, olive oil*, apple cider vinegar*, lemon*, natural sea salt, black pepper*, tamari soy sauce (wheat free)*, garlic*"
+	}, {
+		"mealId": "hummus",
+		"mealName": "Hummus",
+		"ingridients": "chickpea*, sesame seeds*, coriander*, black pepper*, cucumber# or green bean#, carrot*"
+	}]
+}

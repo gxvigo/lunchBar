@@ -1,0 +1,16 @@
+{
+  "name": "lunchBar",
+  "version": "1.0.0",
+  "description": "Project to practice Node learning in a real life scenario",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon app/app.js"
+  },
+  "author": "Giovanni Vigorelli",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "reload": "^1.0.1"
+  }
+}
