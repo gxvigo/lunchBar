@@ -215,12 +215,12 @@ header .navbar-inverse .navbar-nav>li>a {
 }
 
 .feedback-name {
-  font-size: .6em;
+  font-size: .8em;
   font-weight: 100;
 }
 
 .feedback-message {
-  font-weight: 100;
+  font-weight: 200;
   font-size: .9em;
   line-height: 120%;
   margin-top: 5px;

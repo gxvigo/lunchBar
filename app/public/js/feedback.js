@@ -1,15 +1,18 @@
+var currentDate = new Date();
+
 // jquery is used below
 $(function() {  // this function is loaded whenever the page is loaded
     $.getJSON('/api/feedback', updateFeedback);
     
     $(".feedback-form").submit(function(e){ // event listener of the submit form. It generate an event 'e' 
         e.preventDefault();  // prevent the form to be reloaded
-        $.post('feedback', {
+        $.post('/api/feedback', { // POST to the feedback route
             "rating": $("#feedback-form-rating").val(),
             "name": $("#feedback-form-name").val(),
             "email": $("#feedback-form-email").val(),
-            "message": $("#feedback-form-message").val()
-        });
+            "message": $("#feedback-form-message").val(),
+            "date": currentDate
+        }, updateFeedback); // execute the updateFeedback to reaload the content of the feedbacl section
     });
     
     function updateFeedback(data) {  // data is a variable provided by jquery with the reslult of the get call
@@ -20,7 +23,7 @@ $(function() {  // this function is loaded whenever the page is loaded
                     <div class="feedback-item media">
                         <div class="feedback-info media-body">
                             <div class="feedback-head">
-                                <div class="feedback-title"><small class=""feedback-name" label label-info">${item.name} (${item.rating})</small></div>
+                                <div class="feedback-title"><small class="feedback-name">${item.name}  </small><small class="feedback-name label label-info">${item.rating}</small></div>
                             </div>
                             <div class="feedback-message">${item.message}</div>
                         </div>
