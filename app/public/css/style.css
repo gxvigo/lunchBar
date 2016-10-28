@@ -129,14 +129,14 @@ header .navbar-inverse .navbar-nav>li>a {
   }
 }
 
-/**  Menu **/
+/**  Menu 
 
 .menu img {
   height: auto;
   vertical-align: top;
   max-width: 100%;
 }
-
+**/
 
 
 .speakerslist {
@@ -211,7 +211,7 @@ header .navbar-inverse .navbar-nav>li>a {
 }
 
 .feedback-form-title {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .feedback-name {

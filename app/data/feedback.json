@@ -1,0 +1,14 @@
+{
+    "feedback": [{
+            "rating": 5
+            , "name": "Giovanni"
+            , "email": "gxvigo@gmail.com"
+            , "message": "Delicius food, good selection, very healthy"
+    },
+    {
+            "rating": 4
+            , "name": "Barbara"
+            , "email": "bee_bibi@hotmail.com"
+            , "message": "Very good, but I could do better"
+    }]
+}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head><% include head %></head> <!-- TODO: to be fixed once the subfolder issue is solved -->
-  <body>
+  <body id="<%= pageID %>"> <!-- pageID passed by index.js route -->
 
-    <% include header %> <!-- includes header.ejs partials in views -->
+    <% include header %> <!-- includes header.ejs partials from ./views -->
     
     <div class="container">
       <div class="row"> 
@@ -41,7 +41,7 @@
       </div>
     </div><!-- container --> 
 
-    <div class="container menu">
+    <div class="container ">
         <div class="row">
             <div class="col-sm-2">
                 <h2>Week A</h2>
@@ -50,25 +50,25 @@
                 <h2>Monday</h2>
                 <h3>Japanese curry on rice</h3>
                 <p>(GF, VG) </p>
-                <img src="./images/food/japaneseCurryOnRice.jpg"> 
+                <img class="img-responsive" src="./images/food/japaneseCurryOnRice.jpg"> 
             </div>
             <div class="col-sm-2">
                 <h2>Monday</h2>
                 <h3>Japanese curry on rice</h3>
                 <p>(GF, VG) </p>
-                <img src="./images/food/japaneseCurryOnRice.jpg"> 
+                <img class="img-responsive" src="./images/food/japaneseCurryOnRice.jpg"> 
             </div>
             <div class="col-sm-2">
                 <h2>Monday</h2>
                 <h3>Japanese curry on rice</h3>
                 <p>(GF, VG) </p>
-                <img src="./images/food/japaneseCurryOnRice.jpg"> 
+                <img class="img-responsive" src="./images/food/japaneseCurryOnRice.jpg"> 
             </div>
             <div class="col-sm-2">
                 <h2>Monday</h2>
                 <h3>Japanese curry on rice</h3>
                 <p>(GF, VG) </p>
-                <img class="menu" src="./images/food/japaneseCurryOnRice.jpg"> 
+                <img class="img-responsive" class="menu" src="./images/food/japaneseCurryOnRice.jpg"> 
             </div>
             <div class="col-md-2">
                 <h2>Friday</h2>
@@ -76,11 +76,6 @@
         </div>    
     </div>
 
-    <script src="./js/jquery-2.2.4.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-    <script src="/js/pixgrid.js"></script>
-    <script src="/reload/reload.js"></script>
+    <% include jsdefaults %> <!-- includes jsdefaults.ejs partials from ./views -->
   </body>
 </html>
