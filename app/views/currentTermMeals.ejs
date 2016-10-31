@@ -1,0 +1,40 @@
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-2">
+                <h2>Week A</h2>
+            </div>            
+            <div class="col-sm-2">
+                <h2>Monday</h2>
+                <h3>Japanese curry on rice</h3>
+                <p>(GF, VG) </p>
+                <img class="img-responsive" src="./images/food/japaneseCurryOnRice.jpg"> 
+            </div>
+            <div class="col-sm-2">
+                <h2>Monday</h2>
+                <h3>Japanese curry on rice</h3>
+                <p>(GF, VG) </p>
+                <img class="img-responsive" src="./images/food/japaneseCurryOnRice.jpg"> 
+            </div>
+            <div class="col-sm-2">
+                <h2>Monday</h2>
+                <h3>Japanese curry on rice</h3>
+                <p>(GF, VG) </p>
+                <img class="img-responsive" src="./images/food/japaneseCurryOnRice.jpg"> 
+            </div>
+            <div class="col-sm-2">
+                <h2>Monday</h2>
+                <h3>Japanese curry on rice</h3>
+                <p>(GF, VG) </p>
+                <img class="img-responsive" class="menu" src="./images/food/japaneseCurryOnRice.jpg"> 
+            </div>
+            <div class="col-md-2">
+                <h2>Friday</h2>
+            </div>
+        </div>    
+    </div>
+
+        <% if (openingHours.openingHours.length > 0) { %>  <!-- read variable openingHours passed by index.js route -->
+            <% for (i=0; i< openingHours.openingHours.length; i++) { %>
+                <li><%= openingHours.openingHours[i] %></li>
+            <% } %>
+        <% } %>

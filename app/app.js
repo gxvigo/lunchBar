@@ -1,6 +1,8 @@
 var express = require('express');
-var app = express();
 var reload = require('reload');
+
+var app = express();
+
 
 app.set('port', process.env.PORT || 3000);
 app.set('view engine', 'ejs'); // set view engine

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head><% include head %></head> <!-- TODO: to be fixed once the subfolder issue is solved -->
+  <head><% include ./partials/template/head %></head> <!-- TODO: to be fixed once the subfolder issue is solved -->
   <body id="<%= pageID %>"> <!-- pageID passed by index.js route -->
 
-    <% include header %> <!-- includes header.ejs partials in views -->
+    <% include ./partials/template/header %> <!-- includes header.ejs partials in views -->
     
 
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <h3 class="feedback-form-title">Please provide some feedback</h3>
                 <form class="feedback-form">
                     <div class="form-group">
@@ -37,7 +37,7 @@
                     <button type="submit" class="btn btn-default pull-right">Submit</button>
                 </form>
             </div>
-            <aside class="col-sm-8">
+            <aside class="col-sm-6">
                 <div class="mainconent feedback">
                     <h3 class="article-title">Recent feedback</h3>
                     <div class="feedback-messages"></div>
@@ -46,6 +46,6 @@
         </div>  
     </div>  
 
-    <% include jsdefaults %> <!-- includes jsdefaults.ejs partials from ./views -->
+    <% include ./partials/template/jsdefaults %> <!-- includes jsdefaults.ejs partials from ./views -->
   </body>
 </html>

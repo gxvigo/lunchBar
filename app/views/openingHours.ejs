@@ -1,0 +1,13 @@
+<article class="sidebar">
+    <h1 class="sidebar-title">Opening hours</h1>
+    <ul class="sidebar-body">
+
+        <% if (openingHours.openingHours.length > 0) { %>  <!-- read variable openingHours passed by index.js route -->
+            <% for (i=0; i< openingHours.openingHours.length; i++) { %>
+                <li><%= openingHours.openingHours[i] %></li>
+            <% } %>
+        <% } %>
+
+    </ul>
+</article>
+<!-- article -->
