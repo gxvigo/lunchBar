@@ -1,40 +1,37 @@
-    <div class="container ">
-        <div class="row">
-            <div class="col-sm-2">
-                <h2>Week A</h2>
-            </div>            
-            <div class="col-sm-2">
-                <h2>Monday</h2>
-                <h3>Japanese curry on rice</h3>
-                <p>(GF, VG) </p>
-                <img class="img-responsive" src="./images/food/japaneseCurryOnRice.jpg"> 
-            </div>
-            <div class="col-sm-2">
-                <h2>Monday</h2>
-                <h3>Japanese curry on rice</h3>
-                <p>(GF, VG) </p>
-                <img class="img-responsive" src="./images/food/japaneseCurryOnRice.jpg"> 
-            </div>
-            <div class="col-sm-2">
-                <h2>Monday</h2>
-                <h3>Japanese curry on rice</h3>
-                <p>(GF, VG) </p>
-                <img class="img-responsive" src="./images/food/japaneseCurryOnRice.jpg"> 
-            </div>
-            <div class="col-sm-2">
-                <h2>Monday</h2>
-                <h3>Japanese curry on rice</h3>
-                <p>(GF, VG) </p>
-                <img class="img-responsive" class="menu" src="./images/food/japaneseCurryOnRice.jpg"> 
-            </div>
-            <div class="col-md-2">
-                <h2>Friday</h2>
-            </div>
-        </div>    
-    </div>
+<!--
+This table works only with 4 day meals in currentTermsMeals.json, 
+in case of changes business logic must be revisited  
+--> 
 
-        <% if (openingHours.openingHours.length > 0) { %>  <!-- read variable openingHours passed by index.js route -->
-            <% for (i=0; i< openingHours.openingHours.length; i++) { %>
-                <li><%= openingHours.openingHours[i] %></li>
+<div class="container ">
+        <h1 class="section-title">Current term meals</h1>
+        <% if (currentTermMeals.meals.length == 8) { %>
+            <% for (var i=0; i < currentTermMeals.meals.length; i++) { %>
+                <% if (i == 0 || i == 4 ) { %>
+                    <div class="row"> 
+                        <div class="col-sm-2 meal-table-title">
+                            <h2>Week <%= currentTermMeals.meals[i].week %></h2>
+                        </div> 
+
+                <% } %>
+                           
+                        <div class="col-sm-2 meal-table-content">
+                        <h2><%= currentTermMeals.meals[i].day %></h2>
+                        <h3><%= currentTermMeals.meals[i].mealName %></h3>
+                        <p><%= currentTermMeals.meals[i].dietaryRestrictions %></p>
+                        <p class="hide"><%= currentTermMeals.meals[i].mealId %></p>
+                        <img class="img-responsive" src="./images/food/<%= currentTermMeals.meals[i].image %>"> 
+                        </div>
+                            
+
+
+                <% if (i == 3 || i == 7 ) { %>
+                        <div class="col-md-2 meal-table-content">
+                            <h2>Friday</h2>
+                            <h3>School day</h3>
+                        </div>
+                    </div> 
+                <% } %> 
             <% } %>
         <% } %>
+    </div>

@@ -129,15 +129,30 @@ header .navbar-inverse .navbar-nav>li>a {
   }
 }
 
-/**  Menu 
+/**  Meal table **/
 
-.menu img {
-  height: auto;
-  vertical-align: top;
-  max-width: 100%;
+.meal-table-title h2 {
+    font-size: 2vw;
 }
-**/
 
+.meal-table-content h2 {
+    font-size: 2vw; 
+}
+
+.meal-table-content h3 {
+    min-height: 60px;
+    font-size: 1.5vw;
+}
+
+.meal-table-content p {
+    
+}
+
+.hide {
+    display: none;
+}
+
+/** / Meal table **/
 
 .speakerslist {
   font-family: 'Roboto', sans-serif;

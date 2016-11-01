@@ -4,48 +4,64 @@
 		"mealName": "Onigirazu (Sushi) - Japanese rice sandwich",
 		"dietaryRestrictions": "GF, VG",
 		"image": "onigirazu.jpg",
+        "week": "A",
+        "day": "Monday",
 		"price": 0.00
 	}, {
 		"mealId": "brownRiceSaladAndHummus",
 		"mealName": "Brown rice salad and Hummus",
 		"dietaryRestrictions": "GF, VG",
 		"image": "brownRiceSaladAndHummus.jpg",
+        "week": "A",
+        "day": "Tuesday",
 		"price": 0.00
 	}, {
 		"mealId": "japaneseStirFryNoodle",
 		"mealName": "Japanese stir fry noodle",
 		"dietaryRestrictions": "GF or Wheat, VG",
 		"image": "japaneseStirFryNoodle.jpg",
+        "week": "A",
+        "day": "Wednesday",
 		"price": 0.00
 	}, {
 		"mealId": "wrapWithFalafel",
 		"mealName": "Wrap with falafel",
 		"dietaryRestrictions": "GF or Wheat, VG",
 		"image": "wrapWithFalafel.jpg",
+        "week": "A",
+        "day": "Thursday",
 		"price": 0.00
 	}, {
 		"mealId": "pizzaAndSalad",
 		"mealName": "Pizza and salad",
-		"dietaryRestrictions": "GF or Wheat, VG or Cheese",
+		"dietaryRestrictions": "GF and VG options",
 		"image": "pizzaAndSalad.jpg",
+        "week": "B",
+        "day": "Monday",
 		"price": 0.00
 	}, {
 		"mealId": "japaneseCurryOnRice",
 		"mealName": "Japanese curry on rice",
 		"dietaryRestrictions": "GF, VG",
 		"image": "japaneseCurryOnRice.jpg",
+        "week": "B",
+        "day": "Tuesday",
 		"price": 0.00
 	}, {
 		"mealId": "shepherdsPieAndSalad",
 		"mealName": "Shepherd’ s pie and salad",
 		"dietaryRestrictions": "GF, VG",
 		"image": "shepherdsPieAndSalad.jpg",
+        "week": "B",
+        "day": "Wednesday",
 		"price": 0.00
 	}, {
 		"mealId": "malaysianNasiLemak",
 		"mealName": "Malaysian nasi lemak",
 		"dietaryRestrictions": "GF, VG",
 		"image": "malaysianNasiLemak.jpg",
+        "week": "B",
+        "day": "Monday",
 		"price": 0.00
 	}],
 	"weeksValidity": [{
