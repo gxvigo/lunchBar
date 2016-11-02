@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head><% include ./partials/template/head %></head> <!-- TODO: to be fixed once the subfolder issue is solved -->
+  <body id="<%= pageID %>"> <!-- pageID passed by index.js route -->
+
+    <% include ./partials/template/header %> <!-- includes header.ejs partials in views -->
+    
+
+    <div class="container">
+        <div class="row">
+            <aside class="col-sm-6">
+                <div class="mainconent feedback">
+                    <h3 class="article-title">Recent feedback</h3>
+                    <div class="feedback-messages"></div>
+                </div>
+            </aside>            
+        </div>  
+    </div>  
+
+    <% include ./partials/template/jsdefaults %> <!-- includes jsdefaults.ejs partials from ./views -->
+  </body>
+</html>
