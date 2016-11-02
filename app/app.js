@@ -12,6 +12,7 @@ app.use(express.static(__dirname + '/public')); // configure static directory
 app.use(require('./routes/index')); // load index.ejs route
 app.use(require('./routes/feedback')); // load feedback.ejs route
 app.use(require('./routes/feedbackApi')); // load feedbackApi.ejs route
+app.use(require('./routes/admin')); // load admin.ejs route 
 
 var server = app.listen(app.get('port'), function(){
    console.log('### express server listening on http://host:' + app.get('port')); 
