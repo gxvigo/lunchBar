@@ -1,7 +1,7 @@
 Lunch Bar 
 ===================
 
-This is repository hosts a Node.js Express application used to implement the web site of my son's school lunch bar.
+This repository hosts a Node.js Express application used to implement the web site of my son's school lunch bar.
 This is a modernized version of the current web site.
 
 This project has been used as training exercise while following the course "Building a Website with Node.js and Express.js" by Ray Villalobos. 
