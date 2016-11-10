@@ -9,8 +9,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-/*  color: #C1343F; */
-  color: #809C1F;
+  /*  color: #C1343F; */
+  /* color: #fff; */
+  /* text-decoration: underline; */
 }
 
 p {
@@ -129,6 +130,19 @@ header .navbar-inverse .navbar-nav>li>a {
   }
 }
 
+/**  / Navbar **/
+
+
+/** Main **/
+
+.row.main {
+    background-color: #c3dd68;
+    margin-left: -0px;
+    margin-right: 0px;
+}    
+
+/** / Main **/
+
 /**  Meal table **/
 
 .meal-table-title h2 {
@@ -136,11 +150,13 @@ header .navbar-inverse .navbar-nav>li>a {
 }
 
 .meal-table-content h2 {
-    font-size: 2vw; 
+    font-size: 2vw;
+    color: white;
+    text-decoration: underline;
 }
 
 .meal-table-content h3 {
-    min-height: 60px;
+    height: 70px;
     font-size: 1.5vw;
 }
 
@@ -150,6 +166,30 @@ header .navbar-inverse .navbar-nav>li>a {
 
 .hide {
     display: none;
+}
+
+
+.col-sm-2.meal-table-content {
+    background-color: #c3dd68;
+    border-radius: 30px 30px 0 0;
+    margin: 5px;
+}
+
+.col-sm-2.meal-table-content:nth-child(odd) {
+    background-color: #9db93b;
+    border-radius: 30px 30px 0 0;
+    margin: 5px;
+}
+
+.meal-table-content h2 {
+    font-size: 2vw;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.meal-table-content img.img-responsive {
+    border-radius: 2px;
 }
 
 /** / Meal table **/

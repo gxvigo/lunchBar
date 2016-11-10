@@ -1,7 +1,25 @@
 {
-	"pricebook": {
-		"preOrder2-4daysFullTerm-st": 4.00,
-		"preOrder2-4daysFullTerm-ex": 6.00,
-		"preOrder1dayFullTerm-st": 4.50
+	"priceBook": {
+		"preOrder": {
+			"preOrder2-4daysFullTerm-st": 4.00,
+			"preOrder2-4daysFullTerm-ex": 6.00,
+			"preOrder1dayFullTerm-st": 4.50
+		},
+		"bar": {
+			"Snack of the day": 2.00,
+			"Organic granola with organic plant milk or Organic cow milk": 3.00,
+			"Rice ball (seaweed, sesame or baked)": 2.00,
+			"Organic fruits": 1.00,
+			"Juicies": 2.00,
+			"Organic popcorn": 1.50,
+			"Banana cake": 2.00,
+			"Organic drink": 2.00,
+			"Organic tea": 2.00,
+			"Organic ice or hot chocolate (cow or plant milk) - Small": 3.00,
+			"Organic ice or hot chocolate (cow or plant milk) - Large": 4.00,
+			"Smoothie (green or fruits)": 3.50,
+			"Cereal bar": 1.00,
+			"Dairy & Egg free chocolate cookie (Afternoon tea only)": 1.00
+		}
 	}
 }
