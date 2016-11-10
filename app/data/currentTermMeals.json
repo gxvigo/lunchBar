@@ -2,7 +2,7 @@
 	"meals": [{
 		"mealId": "onigirazu",
 		"mealName": "Onigirazu (Sushi) - Japanese rice sandwich",
-		"dietaryRestrictions": "GF, VG",
+		"dietaryRestrictions": "GF,VG",
 		"image": "onigirazu.jpg",
         "week": "A",
         "day": "Monday",
@@ -10,7 +10,7 @@
 	}, {
 		"mealId": "brownRiceSaladAndHummus",
 		"mealName": "Brown rice salad and Hummus",
-		"dietaryRestrictions": "GF, VG",
+		"dietaryRestrictions": "GF,VG",
 		"image": "brownRiceSaladAndHummus.jpg",
         "week": "A",
         "day": "Tuesday",
@@ -18,7 +18,7 @@
 	}, {
 		"mealId": "japaneseStirFryNoodle",
 		"mealName": "Japanese stir fry noodle",
-		"dietaryRestrictions": "GF or Wheat, VG",
+		"dietaryRestrictions": "GF,VG,W",
 		"image": "japaneseStirFryNoodle.jpg",
         "week": "A",
         "day": "Wednesday",
@@ -26,7 +26,7 @@
 	}, {
 		"mealId": "wrapWithFalafel",
 		"mealName": "Wrap with falafel",
-		"dietaryRestrictions": "GF or Wheat, VG",
+		"dietaryRestrictions": "GF,W,VG",
 		"image": "wrapWithFalafel.jpg",
         "week": "A",
         "day": "Thursday",
@@ -34,7 +34,7 @@
 	}, {
 		"mealId": "pizzaAndSalad",
 		"mealName": "Pizza and salad",
-		"dietaryRestrictions": "GF and VG options",
+		"dietaryRestrictions": "GF,VG,OO",
 		"image": "pizzaAndSalad.jpg",
         "week": "B",
         "day": "Monday",
@@ -42,7 +42,7 @@
 	}, {
 		"mealId": "japaneseCurryOnRice",
 		"mealName": "Japanese curry on rice",
-		"dietaryRestrictions": "GF, VG",
+		"dietaryRestrictions": "GF,VG",
 		"image": "japaneseCurryOnRice.jpg",
         "week": "B",
         "day": "Tuesday",
@@ -50,7 +50,7 @@
 	}, {
 		"mealId": "shepherdsPieAndSalad",
 		"mealName": "Shepherd’ s pie and salad",
-		"dietaryRestrictions": "GF, VG",
+		"dietaryRestrictions": "GF,VG",
 		"image": "shepherdsPieAndSalad.jpg",
         "week": "B",
         "day": "Wednesday",
@@ -58,7 +58,7 @@
 	}, {
 		"mealId": "malaysianNasiLemak",
 		"mealName": "Malaysian nasi lemak",
-		"dietaryRestrictions": "GF, VG",
+		"dietaryRestrictions": "GF,VG",
 		"image": "malaysianNasiLemak.jpg",
         "week": "B",
         "day": "Monday",
@@ -68,5 +68,6 @@
 		"A": "10-13 October, 25-27 Oct, 7-10 Nov, 21-24 Nov, 5-7 Dec"
 	}, {
 		"B": "17-20 Oct, 31 Oct-1 Nov, 14-17 Nov, 28 Nov- 1 Dec, 12-15 De"
-	}]
+	}],
+    "dietaryRestrictionDetails": {"GF": "Gluten Free", "VG": "Vegan", "W": "Weat", "OO": "Other Options"} 
 }

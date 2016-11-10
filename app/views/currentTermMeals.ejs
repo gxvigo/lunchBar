@@ -22,7 +22,11 @@ in case of changes business logic must be revisited
                         </p> 
                         <img class="img-responsive" src="./images/food/<%= currentTermMeals.meals[i].image %>">
                         <p>
-                            <%= currentTermMeals.meals[i].dietaryRestrictions %>
+                            <% var ditResArr = currentTermMeals.meals[i].dietaryRestrictions.split(","); %>
+                            <% for(item in ditResArr){ %>
+                                <% var tooltip = currentTermMeals.dietaryRestrictionDetails[ditResArr[item]]; %>
+                                <span data-toggle="tooltip" title="<%= tooltip %>"><%= ditResArr[item] %></span><span> </span>
+                            <% } %>
                         </p>
                     </div>
              <% } %>
