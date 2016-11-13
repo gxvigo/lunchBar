@@ -20,6 +20,15 @@ At the moment the pages implemented in the site are listed bolow:
 > - **/admin/feedback** - this page allow the administrator to delete left from users
 
 
+Sandpit
+-------------
+Sandpit is where I try things I am learning, not really fundamental for the 
+web site, they are stored in different branches till working and meaningful 
+for the lunch bar
+Currently in sandpit:
+
+> - **/sandpit/productCarousel** - test page for jQuery carousel
+> - **sandpit/api/products** - api to serve products.json resource
 
 
 Resources
