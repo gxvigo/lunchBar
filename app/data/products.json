@@ -1,0 +1,102 @@
+{
+  "products": {
+    "onigirazu": {
+      "mealName": "Onigirazu (Sushi) - Japanese rice sandwich",
+      "ingridients": [
+        "rice*",
+        "natural nori seaweed",
+        "apple cider vinegar*",
+        "raw sugar*",
+        "natural sea salt",
+        "mirin",
+        "ginger#",
+        "tamari soy sauce (wheat free)*",
+        "carrot*",
+        "cucumber#",
+        "soy texture*"
+      ],
+      "dietaryRestrictions": "GF,VG",
+      "image": "onigirazu.jpg",
+      "price": 0
+    },
+    "brownRiceSalad": {
+      "mealName": "Brown rice salad",
+      "ingridients": [
+        "brown rice*",
+        "carrot*",
+        "red onion#",
+        "spring onion#",
+        "corn",
+        "pumpkin seeds*",
+        "sunflower seeds*",
+        "raisin*",
+        "olive oil*",
+        "apple cider vinegar*",
+        "lemon*",
+        "natural sea salt",
+        "black pepper*",
+        "tamari soy sauce (wheat free)*",
+        "garlic*"
+      ],
+      "dietaryRestrictions": "GF,VG",
+      "image": "brownRiceSaladAndHummus.jpg",
+      "price": 0
+    },
+    "hummus": {
+      "mealName": "Hummus",
+      "ingridients": [
+        "chickpea*",
+        "sesame seeds*",
+        "coriander*",
+        "black pepper*",
+        "cucumber or green bean",
+        "carrot*"
+      ],
+      "dietaryRestrictions": "GF,VG",
+      "image": "brownRiceSaladAndHummus.jpg",
+      "price": 0
+    },
+    "japaneseStirFryNoodle": {
+      "mealName": "Japanese stir fry noodle",
+      "ingridients": [],
+      "dietaryRestrictions": "GF,VG,W",
+      "image": "japaneseStirFryNoodle.jpg",
+      "price": 0
+    },
+    "wrapWithFalafel": {
+      "mealName": "Wrap with falafel",
+      "ingridients": [],
+      "dietaryRestrictions": "GF,W,VG",
+      "image": "wrapWithFalafel.jpg",
+      "price": 0
+    },
+    "pizzaAndSalad": {
+      "mealName": "Pizza and salad",
+      "ingridients": [],
+      "dietaryRestrictions": "GF,VG,OO",
+      "image": "pizzaAndSalad.jpg",
+      "price": 0
+    },
+    "japaneseCurryOnRice": {
+      "mealName": "Japanese curry on rice",
+      "ingridients": [],
+      "dietaryRestrictions": "GF,VG",
+      "image": "japaneseCurryOnRice.jpg",
+      "price": 0
+    },
+    "shepherdsPieAndSalad": {
+      "mealName": "Shepherd’ s pie and salad",
+      "ingridients": [],
+      "dietaryRestrictions": "GF,VG",
+      "image": "shepherdsPieAndSalad.jpg",
+      "price": 0
+    },
+    "malaysianNasiLemak": {
+      "mealName": "Malaysian nasi lemak",
+      "ingridients": [],
+      "dietaryRestrictions": "GF,VG",
+      "image": "malaysianNasiLemak.jpg",
+      "price": 0
+    }
+  }
+}

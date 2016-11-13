@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <% include ./partials/template/head %>
+    <link rel="stylesheet" href="/css/productsCarousel.css">
+    <link rel='stylesheet' href='/css/style.css' />
+</head>
+<body id="pageID">
+    <h1>Product Carousel</h1>
+    
+    <ul id="productsCarousel"></ul>
+    
+    <% include ./partials/template/jsdefaults %>
+    <script src="/js/jquery.cycle.all.min.js"></script>  <!-- SANDIPT - jQuery pluging for product carousel-->
+    <script src="/js/myCarousel.js"></script> <!-- app logic to build ProductsCarousel-->
+    
+</body>    
+</html>
